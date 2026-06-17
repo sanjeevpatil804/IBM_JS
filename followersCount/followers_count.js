@@ -4,6 +4,8 @@ function increaseCount(){
     count++; // Increment the count by 1
     displayCount(); // Display ther count
     checkCountValue(); // check count value and greet
+   
+    
 }
 
 function displayCount(){
@@ -18,4 +20,13 @@ function checkCountValue(){
             alert("Your Instagram post gained 20 follower, Congratulations!");
 
         }
+
     }
+
+    function resetCount(){
+        count = 0;
+        displayCount();
+        alert("followers has been reset");
+        
+    }
+  
